@@ -7,7 +7,6 @@ export default {
   title: "components/UserList",
 };
 
-
 const Template = (args) => <UserList {...args} />;
 
 export const Simple = Template.bind({});
@@ -19,7 +18,7 @@ Simple.args = {
       avatarUrl: "https://avatars2.githubusercontent.com/u/263385",
     },
     {
-      id: "1",
+      id: "2",
       name: "Tom Coleman",
       avatarUrl: "https://avatars2.githubusercontent.com/u/132554",
     },

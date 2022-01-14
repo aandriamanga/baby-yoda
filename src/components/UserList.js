@@ -1,12 +1,11 @@
 import React from "react";
 
-import UserItem from "./UserItem";
+// import UserItem from "./UserItem";
+import { AvatarList } from "@aantonio/yoda";
 
 const UserList = ({ users }) => (
   <>
-    {users.map((user) => (
-      <UserItem key={user.id} user={user} />
-    ))}
+    <AvatarList users={users} />
   </>
 );
 
